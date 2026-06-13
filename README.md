@@ -20,7 +20,7 @@ A configurable CPU cache simulator written in modern C++17. Simulates cache read
 
 ## Architecture
 
-```
+```mermaid
 ┌─────────────────────────────────────────────┐
 │                   Cache                     │
 │  - sets: vector<CacheSet>                   │
