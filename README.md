@@ -21,27 +21,6 @@ A configurable CPU cache simulator written in modern C++17. Simulates cache read
 ## Architecture
 
 ```mermaid
-┌─────────────────────────────────────────────┐
-│                   Cache                     │
-│  - sets: vector<CacheSet>                   │
-│  - WritePolicy*                             │
-│  - AddressDecoder*                          │
-│  - Loader*                                  │
-└──────┬──────────┬──────────┬────────────────┘
-       │          │          │
-       ▼          ▼          ▼
- AddressDecoder  Loader  WritePolicy (interface)
- (stateless)      │       ├── WriteThroughPolicy
-                  │       └── WriteBackPolicy
-                  ▼
-               Memory
-             (uint8_t[])
-
-CacheSet
-  └── lines: vector<CacheLine>    ← N-way associativity
-        └── EvictionPolicy (interface)
-              └── LRUPolicy
-
 classDiagram
     class Cache {
         +int32_t readHit
