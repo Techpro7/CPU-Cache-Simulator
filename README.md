@@ -20,7 +20,7 @@ A configurable CPU cache simulator written in modern C++17. Simulates cache read
 
 ## Architecture
 
-\```
+```
 ┌─────────────────────────────────────────────┐
 │                   Cache                     │
 │  - sets: vector<CacheSet>                   │
@@ -41,7 +41,7 @@ CacheSet
   └── lines: vector<CacheLine>    ← N-way associativity
         └── EvictionPolicy (interface)
               └── LRUPolicy
-\```
+```
 
 ### Components
 
