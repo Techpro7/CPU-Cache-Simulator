@@ -41,6 +41,42 @@ CacheSet
   └── lines: vector<CacheLine>    ← N-way associativity
         └── EvictionPolicy (interface)
               └── LRUPolicy
+
+classDiagram
+    class Cache {
+        +int32_t readHit
+        +int32_t readMiss
+        +int32_t writeHit
+        +int32_t writeMiss
+        +int32_t offsetBits
+        +int32_t blockSize
+        +int32_t indexBits
+        +int32_t tagBits
+        +AddressDecoder* decoder
+        +Loader* loader
+        +read() int8_t
+        +write() void
+        +printStats() void
+    }
+
+    class Decoder {
+        +DecodeAddress(int32_t address, int32_t block_size, int32_t index_bit, int32_t offset_bits) AddressParts
+    }
+
+    class Memory {
+        -vector~int32_t~ memory
+        +read() int32_t
+        +write() void
+    }
+
+    class Loader {
+        +Memory& memory
+        +LoadFromMemory(int32_t address, CacheLine& cacheline, int32_t blocksize, int32_t index_bit, int32_t offset_bit) void
+    }
+
+    Cache --> Decoder : uses
+    Cache --> Loader  : uses
+    Loader --> Memory : reads from
 ```
 
 ### Components
