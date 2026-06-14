@@ -1,5 +1,5 @@
 CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o: \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/tools/generate_trace.cpp \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/tools/generate_trace.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

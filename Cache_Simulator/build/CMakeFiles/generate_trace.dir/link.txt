@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o -o generate_trace
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o -o generate_trace

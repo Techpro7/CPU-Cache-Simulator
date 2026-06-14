@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/tools/generate_trace.cpp" "CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o" "gcc" "CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o.d"
+  "/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/tools/generate_trace.cpp" "CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o" "gcc" "CMakeFiles/generate_trace.dir/tools/generate_trace.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

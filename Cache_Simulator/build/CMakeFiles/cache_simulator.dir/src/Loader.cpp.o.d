@@ -1,7 +1,7 @@
 CMakeFiles/cache_simulator.dir/src/Loader.cpp.o: \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/src/Loader.cpp \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include/Loader.h \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include/memory.h \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/src/Loader.cpp \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include/Loader.h \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include/memory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -753,4 +753,4 @@ CMakeFiles/cache_simulator.dir/src/Loader.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include/CacheLine.h
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include/CacheLine.h

@@ -1,6 +1,6 @@
 CMakeFiles/cache_simulator.dir/src/Decoder.cpp.o: \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/src/Decoder.cpp \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include/AddressParts.h \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/src/Decoder.cpp \
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include/AddressParts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -32,4 +32,4 @@ CMakeFiles/cache_simulator.dir/src/Decoder.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include/Decoder.h
+  /Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include/Decoder.h

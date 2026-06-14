@@ -1,4 +1,4 @@
-/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/build/CMakeFiles/cache_simulator.dir
-/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/build/CMakeFiles/generate_trace.dir
-/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/build/CMakeFiles/edit_cache.dir
-/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/build/CMakeFiles/rebuild_cache.dir
+/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/build/CMakeFiles/cache_simulator.dir
+/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/build/CMakeFiles/generate_trace.dir
+/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/build/CMakeFiles/edit_cache.dir
+/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/build/CMakeFiles/rebuild_cache.dir

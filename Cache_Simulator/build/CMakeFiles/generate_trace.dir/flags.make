@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/pranjaltripathi/Documents/cpp/Cache_Simulator/include
+CXX_INCLUDES = -I/Users/pranjaltripathi/Documents/cpp/github_projects/CPU-Cache-Simulator/Cache_Simulator/include
 
-CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
-CXX_FLAGS = -g -std=gnu++17 -arch arm64
+CXX_FLAGS = -std=gnu++17 -arch arm64
 

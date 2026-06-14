@@ -12,7 +12,7 @@ class Loader{
         Loader() = delete;
 
         Loader(Memory& mem): ram_memory{mem} {};
-        void LoadFromMemory(std::uint32_t address, CacheLine& line, std::int32_t block_size, std::int32_t offset_bits, std::int32_t index_bits);
+        void LoadFromMemory(std::uint32_t address, CacheLine& line, std::int32_t block_size);
 };
 
 

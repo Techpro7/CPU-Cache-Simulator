@@ -19,7 +19,7 @@ std::uint8_t Cache::read(std::uint32_t address){
         ++ReadMisses;
         line.valid = true;
         line.tag = parts.tag;
-        loader->LoadFromMemory(address, line, BlockSize, OffsetBits, IndexBits); // load the block from memory to cache
+        loader->LoadFromMemory(address, line, BlockSize); // load the block from memory to cache
         
     }
     return line.data[parts.offset];
@@ -40,7 +40,7 @@ void Cache::write(std::uint32_t address, std::uint8_t value)
         ++WriteMisses;
         line.valid = true;
         line.tag = parts.tag;
-        loader->LoadFromMemory(address, line, BlockSize, OffsetBits, IndexBits) ;
+        loader->LoadFromMemory(address, line, BlockSize);
         line.data[parts.offset] = value;
     }
     // write-through policy implementation
